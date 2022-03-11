@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>227 Voyage</title>
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!--lien font awesomme-->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav-warper cyan">
+      <div class="container">
+        <a href="#" class="brand-logo">227 Voyage</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Popular Place</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <ul class="sidenav" id="mobile-links">
+    <li class=" cyan">  <a href="#" class="brand-logo center white-text">227 Voyage</a>
+    </li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Search</a></li>
+      <li><a href="#">Popular Place</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  
+  </header>
+      <!---side-->
+      <section>
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="img/a1.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>Explorez les merveille de l'Air Teneré</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum est mollitia totam nesciunt aspernatur laborum, facilis quia explicabo. Voluptatem, beatae voluptate. Expedita, cupiditate enim est ullam eveniet nobis saepe iusto.
+                </h5>
+                <a href="#" class="btn btn-cyan center-align">learm more</a>
+              </div>
+            </li>
+            <li>
+              <img src="img/a2.jpg"> <!-- random image -->
+              <div class="caption left-align">
+                <h3>conptemplez les geant de l'afrique</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum est mollitia totam nesciunt aspernatur laborum, facilis quia explicabo. Voluptatem, beatae voluptate. Expedita, cupiditate enim est ullam eveniet nobis saepe iusto.
+                </h5>
+                <a href="#" class="btn btn-cyan left-align">learm more</a>
+              </div>
+            </li>
+            <li>
+              <img src="img/a3.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                <h3>Explorez l'afrique a la rencontre des animeaux extra ordinaire</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum est mollitia totam nesciunt aspernatur laborum, facilis quia explicabo. Voluptatem, beatae voluptate. Expedita, cupiditate enim est ullam eveniet nobis saepe iusto.
+                </h5>
+                <a href="#" class="btn btn-cyan center-align">learm more</a>
+              </div>
+            </li>
+            <li>
+              <img src="img/a4.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>les merveilles des chute d'eau!</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum est mollitia totam nesciunt aspernatur laborum, facilis quia explicabo. Voluptatem, beatae voluptate. Expedita, cupiditate enim est ullam eveniet nobis saepe iusto.
+                </h5>
+                <a href="#" class="btn btn-cyan center-align">learm more</a>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="cyan darken-2"> 
+        <div class="container">
+          <div class="row">
+            <div class="row">
+              <div class="col s12 l12 center-align white-text">
+                      <h3>Search Destination</h3>
+              </div>
+              <div class="input-field col s12 l12 center">
+                <input type="text" id="autocomplete-input" class="white grey-text autocomplete" placeholder="NIamey, Tahoua; Maradi">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blue-grey lighten-5 section" style="padding: 30px;">
+        <div class="container">
+          <div class="row">
+            <div class="row">
+              <div class="col s12 l4">
+                <div class="card ">
+                  <div class="card-content center-align">
+                    <i class="fa-solid fa-location-dot fa-3x cyan-text center-text"></i>
+                    <h5>Pick where</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 l4">
+                <div class="card ">
+                  <div class="card-content center-align">
+                    <i class="fa-solid fa-hotel fa-3x cyan-text center-text"></i>
+                    <h5>Travel Shop</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 l4">
+                <div class="card ">
+                  <div class="card-content center-align">
+                    <i class="fa-solid fa-plane fa-3x cyan-text center-text"></i>
+                    <h5>Fly Cheap</h5>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="row center-align">
+              <h3 class=" cyan-text">Popular <strong class="black-text">place</strong></h3>
+              <div class="col s12 m4">
+                <div class="card large">
+                  <div class="card-image">
+                    <img src="img/a1.jpg">
+                    <span class="card-title">teneré</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card large">
+                  <div class="card-image">
+                    <img src="img/a2.jpg">
+                    <span class="card-title">Dosso</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  </div>
+                </div>
+              <div class="col s12 m4">
+                <div class="card large">
+                  <div class="card-image">
+                    <img src="img/a3.jpg">
+                    <span class="card-title">Parc W Niamey</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  </div>
+                </div>
+                <a class="waves-effect waves-light btn  grey darken-2"><i class="material-icons left">send</i>contact For Booking</a>                   
+              </div>
+            </div>
+        </div>
+      </section>
+      <section class="cyan darken-2 center-align">
+        <div class="container">
+          <div class="row">
+            <div class="row">
+                <div class="col s12 m12 white-text">
+                  <h4>Follow 227Voyages</h4>
+                  <p>Follow us on social media for special offers</p>
+                </div>
+                <div class="col s12 m12" >
+                  <i class="fa-brands trav fa-facebook fa-3x white-text"></i>
+                  <i class="fa-brands trav fa-twitter fa-3x white-text"></i>
+                  <i class="fa-brands trav fa-instagram fa-3x white-text"></i>
+                  <i class="fa-brands trav fa-linkedin fa-3x white-text"></i>
+                  <i class="fa-brands trav fa-snapchat fa-3x white-text"></i>
+                  <i class="fa-brands trav fa-tiktok fa-3x white-text"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="row">
+            <h3 class=" cyan-text center align">Photo<strong class="black-text">Gallery</strong></h3>
+
+               <div class="col s12 m3 >"><img src="im/z1.jpg" class="materialboxed merde z-depth-3"  alt="" style="width: 100%;"></div>
+               <div class="col s12 m3 >"><img src="im/z2.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+               <div class="col s12 m3 >"><img src="im/z3.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+               <div class="col s12 m3 >"><img src="im/z4.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+               <div class="col s12 m3 >"><img src="im/z5.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+              <div class="col s12 m3 >"><img src="im/z6.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+              <div class="col s12 m3 >"><img src="im/z7.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+              <div class="col s12 m3 >"><img src="im/z8.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+              <div class="col s12 m3 >"><img src="im/z9.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+              <div class="col s12 m3 >"><img src="im/z10.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+              <div class="col s12 m3 >"><img src="im/z11.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+              <div class="col s12 m3 >"><img src="im/z12.jpg" class="materialboxed merde z-depth-3 "  alt=""  style="width: 100%;"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+             <div class="row">
+              <div class="col s6 m6">
+                <div class="col s12 m12">
+                  <div class="card ">
+                    <div class="card-content center-align cyan white-text">
+                      <i class="fa-solid fa-location-dot fa-3x white-text center-text"></i>
+                      <h5>Pick where</h5>
+                      <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                  </div>   
+                </div>
+                <div class="col s12 m12 card">
+                  <table>
+                    <thead>
+                      <tr>
+                          <th>Location</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <td>227Voyages Agency</td>
+                      </tr>
+                      <tr>
+                        <td>555 Brach rd ,suite 33</td>
+                      </tr>
+                      <tr>
+                        <td>Niamey NE , 447055</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+              <div class="col s6 m6">
+                <div class="card mars">
+                  <h3>Please fill out this form</h3>
+                  <label for="" class="form-group">Name</label>
+                  <input type="text" placeholder="Name">
+                  <label for="" class="form-group">Email</label>
+                  <input type="email" placeholder="Email">
+                  <label for="" class="form-group">Number</label>
+                  <input type="number" placeholder="Number phone">
+                  <label for="" class="form-group">Message</label>
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Enter message"></textarea>
+                  <button class="btn btn-cyan">submit</button>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="cyan footer center-text">
+      <div class="container ">
+        <div class="row">
+          <div class="row center-text white-text">
+            <div class="co s12 m12 cente ">
+              <p class="">227Voyage © 2019 IMMS </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </footer>
+
+         <!-- Compiled and minified JavaScript -->
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+        
+        const slider = document.querySelector('.slider')
+        M.Slider.init(slider,{
+            indicators: false,
+            height: 800,
+            transition: 500,
+            interval: 3000
+        });
+        //autocomplet
+        $(document).ready(function(){
+    $('input.autocomplete').autocomplete({
+      data: {
+        "Niamey": null,
+        "Maradi": null,
+        "Diffa": null,
+        "Tahoua": null,
+        "Agadez": null,
+        "Dosso": null,
+        "Tillaberie": null,
+        "Zinder": null,
+
+      },
+    });
+  });  
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+
+  </script>
+
+
+<style>
+  .merde{
+    height: 200px;
+    width: 200px;
+    margin: 5px 10px 10px 10px;
+  }
+  .trav{
+    margin: 5px 10px;
+  }
+  .mars{
+    padding: 10px 25px 10px 20px;
+  }
+  .footer{
+    padding: 10px 10px;
+  }
+  .cente{
+    text-align: center;
+  }
+ header{
+    position: fixed top;
+  }
+</style>
+
+</body>
+</html>
